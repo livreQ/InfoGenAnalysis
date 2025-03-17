@@ -1,7 +1,8 @@
 # InfoGenAnalysis
 
 This code repo contains the implementation of code in the ICLR 2025 paper:
-**Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis** by Qi Chen, Jierui Zhu, and Florian Shkurti.
+
+**Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis.** by Qi Chen, Jierui Zhu, and Florian Shkurti.
 
 
 ## Prerequisites
