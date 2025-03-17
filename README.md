@@ -36,14 +36,15 @@ pip install -r requirements.txt
 #### Diffusion
 1. Run experiments for toy data, mnist and cifar10. First configure your cluster information to run_mnist.sh and run_cifar10.sh:
    ```
+   cd diffusion
    sh run_toy.sh
    sh submit_mnist.sh
    sh submit_cifar10.sh
    ``` 
 2. Plot bounds
    ```
-   python plot_toy_bound.py
-   python plot_img_bound.py
+   python src/plot/plot_toy_bound.py 
+   python src/plot/plot_img_bound.py 
    ```
 Make sure all the paths are correct and the cluster jobs are correctly run.
 
