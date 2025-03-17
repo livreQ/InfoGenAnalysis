@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# Author: qichen@cs.toronto.ca
+# File Name: run_toy.sh
+# Description:
 
 seed=$1
 T=$2

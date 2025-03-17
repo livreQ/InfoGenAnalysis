@@ -468,7 +468,7 @@ if __name__ == '__main__':
 
     import random
     sm_training_iter = 10000
-    rep = 3
+    rep = 5
     for n_train in [10, 100, 200, 600, 800, 2000, 3000, 5000]:
         for i in range(rep):
             random.seed(i + 20)
