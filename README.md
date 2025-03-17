@@ -23,10 +23,10 @@ pip install -r requirements.txt
 2. Get the memorization score in https://github.com/alan-turing-institute/memorization.
    
   ```
-  $ wget https://gertjanvandenburg.com/projects/memorization/results.zip # or download the file in some other way
-  $ unzip results.zip
-  $ touch results/*/*/*          # update modification time of the result files
-  $ make analysis                # optionally, run ``make -n analysis`` first to see what will happen
+  wget https://gertjanvandenburg.com/projects/memorization/results.zip # or download the file in some other way
+  unzip results.zip
+  touch results/*/*/*          # update modification time of the result files
+  make analysis                # optionally, run ``make -n analysis`` first to see what will happen
   ```
 3. Plot bounds
   ```
@@ -56,7 +56,8 @@ If you find this work useful, please cite our paper:
   title={Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis},
   author={Qi, CHEN and Zhu, Jierui and Shkurti, Florian},
   booktitle={The Thirteenth International Conference on Learning Representations}
-}```
+}
+```
 
 
 ### Acknowledgments
